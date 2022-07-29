@@ -1,0 +1,75 @@
+/* header picture */
+.carousel-item{
+   
+    background: no-repeat scroll center scroll;
+    -webkit-background-size:cover;
+    background-size: cover;
+}
+.carousel-item img{
+    width: 1110px;
+    height: 500px;
+}
+.carousel-item::before {
+ content: "" ;
+ display: block;
+ position: absolute;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ right: 0;
+ background:#000;
+ opacity: 0.7;
+}
+
+
+.carousel-caption{
+  bottom: 50px;
+  justify-items: center;
+  
+}
+.carousel-caption h5{
+    
+    padding-top:200px ;
+    font-size: 100px;
+    font-weight: 700;
+}
+.carousel-caption p{
+    font-size: 18px;
+    top: 2rem;
+}
+
+/* footer section */
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a {
+   text-decoration: none;
+   color: white;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .3s ease;
+}
+.socials a:hover i{
+    color: aquamarine;
+}
