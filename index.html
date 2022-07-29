@@ -13,14 +13,14 @@
     <section class="container py-3">
         <nav class="navbar navbar-expand-lg ">
             <div class="container">
-              <a class="navbar-brand fw-bold" href="#">Web Edu</a>
+              <a class="navbar-brand fw-bold"  href="#">Web Edu</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto mb-2 ">
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto mb-2 justify-content-center">
                   <li class="nav-item  me-4">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active " aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item me-4">
                     <a class="nav-link" href="#">Courses</a>
@@ -216,10 +216,26 @@
             <p>It is a long established fact that a reader will be distracted by  <br> the readable content of a page when looking at its layout.</p>
           </div>
           <div class="col-lg-6 col-md-12 col-sm-6 d-flex align-items-center justify-content-lg-end justify-content-sm-center justify-content-md-center">
-            <!-- <button class="btn btn-danger bg-white text-primary fw-bold px-4 py-2 border-0" data-bs-toggle="model.html">Register Now</button> -->
-          <a class=" btn btn-danger bg-white text-primary fw-bold px-4 py-2 border-0" href="model.html">Register </a> 
-        </div>
-       
+            <button class="btn btn-danger bg-white text-primary fw-bold px-4 py-2 border-0" data-bs-toggle="modal" data-bs-target="#ExtraModel">Register Now</button>
+          
+            <div class="modal" id="ExtraModel" tabindex="1">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Modal 1</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Welcome to my journey</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
       </div>
    </section>
